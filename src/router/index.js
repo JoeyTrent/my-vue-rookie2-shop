@@ -45,7 +45,7 @@ export default new VueRouter({
        },
        {
         path: '/',
-        redirect: Msite
+        redirect: '/msite'
        }, 
        {
         path: '/login',
