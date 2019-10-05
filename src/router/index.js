@@ -12,44 +12,48 @@ import Login from '../pages/Login/Login'
 
 Vue.use(VueRouter)
 
+const originalPush = VueRouter.prototype.push
+VueRouter.prototype.push = function push (location) {
+  return originalPush.call(this, location).catch(err => err)
+}
 
 export default new VueRouter({
-    routes:[
+    routes: [
        {
            path: '/msite',
            component: Msite,
-           meta:{
+           meta: {
                showFooter: true
            }
        },
        {
         path: '/search',
         component: Search,
-        meta:{
+        meta: {
             showFooter: true
         }
-       }, 
+       },
        {
         path: '/order',
         component: Order,
-        meta:{
+        meta: {
             showFooter: true
         }
-       },  
+       },
        {
         path: '/profile',
         component: Profile,
-        meta:{
+        meta: {
             showFooter: true
         }
        },
        {
         path: '/',
         redirect: '/msite'
-       }, 
+       },
        {
         path: '/login',
         component: Login
-       },
+       }
     ]
   })

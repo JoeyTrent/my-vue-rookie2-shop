@@ -24,14 +24,14 @@
       </span>
       <span>我的</span>
     </span>
-  </div>  
+  </div>
 </template>
 
 <script>
   export default {
     methods: {
-      goTo(path){
-        this.$router.replace(path)
+      goTo (path) {
+        this.$router.push(path)
       }
     }
 }
