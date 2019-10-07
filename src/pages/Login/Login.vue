@@ -38,7 +38,7 @@
                 </section>
                 <section class="login_message">
                   <input type="text" maxlength="11" placeholder="验证码" v-model="captcha">
-                  <img class="get_verification" src="./images/captcha.svg" alt="captcha">
+                  <img class="get_verification" src="http://localhost:4000/captcha" alt="captcha" @click="getCaptcha" ref="captcha">
                 </section>
               </section>
             </div>
@@ -56,6 +56,7 @@
 
 <script>
 import AlertTip from '../../components/AlertTip/AlertTip.vue'
+import {reqSendCode, reqSmsLogin, reqPwdLogin} from '../../api'
   export default {
     data () {
       return {
@@ -78,17 +79,28 @@ import AlertTip from '../../components/AlertTip/AlertTip.vue'
     },
     methods: {
       //获取验证码
-      getCode () {
+      async getCode () {
         if (!this.computeTime) { //当前没有计时
           //倒计时
           this.computeTime = 30
-          const intervalId = setInterval(() => {
+          this.intervalId = setInterval(() => {
             this.computeTime--
              if (this.computeTime <= 0) {
-                 clearInterval(intervalId)
+                 clearInterval(this.intervalId)
                 }
               }, 1000)
           //发送请求
+         const result = await reqSendCode(this.phone)
+         if (result.code === 1) {
+           //  显示提示
+           this.showAlert(result.msg)
+           // 停止倒计时
+           if (this.computeTime) {
+             this.computeTime = 0
+             clearInterval(this.intervalId)
+             this.intervalId = undefined
+           }
+         }
         }
       },
       showAlert (alerttext) { //显示提示
@@ -96,34 +108,68 @@ import AlertTip from '../../components/AlertTip/AlertTip.vue'
         this.alertText = alerttext
       },
       //异步登录
-      login () {
+      async login () {
+        let result
         // 前台表单验证
         if (this.loginWay) { //短信登录
           const {rightPhone, code, phone} = this
-          if (!this.rightPhone) {
+          if (!rightPhone) {
             // 手机号不正确
             this.showAlert('手机号不正确')
+            return
           } else if (!/^\d{6}/.test(code)) {
             // 验证码必须6位数字
             this.showAlert('验证码必须6位数字')
+            return
           }
-        }else {
+          // 发送ajax请求短信登录
+          result = await reqSmsLogin(phone, code)
+        } else {
           const {name, pwd, captcha} = this
           if (!this.name) {
             // 用户名需要指定
             this.showAlert('用户名需要指定')
+            return
           } else if (!this.pwd) {
             // 密码需要指定
             this.showAlert('密码需要指定')
+            return
           } else if (!this.captcha) {
             // 验证码需要指定
             this.showAlert('验证码需要指定')
+            return
           }
+          // 发送ajax用户密码登录
+          result = await reqPwdLogin({name, pwd, captcha})
         }
+        // 停止倒计时
+           if (this.computeTime) {
+             this.computeTime = 0
+             clearInterval(this.intervalId)
+             this.intervalId = undefined
+           }
+        // 处理结果
+        if (result.code === 0) {
+           const user = result.data
+           // 保存到state
+           this.$store.dispatch('recordUser', user)
+           // 跳转个人中心
+           this.$router.replace('/profile')
+          } else {
+           const msg = result.msg
+           this.showAlert(msg)
+           // 刷新验证码
+           this.getCaptcha()
+          }
       },
+      // 关闭提示框
       closeTip () {
         this.alertShow = false
         this.alertText = ''
+      },
+      // 获取svg
+      getCaptcha () {
+        this.$refs.captcha.src = 'http://localhost:4000/captcha?time=' + Date.now()
       }
     },
     components: {

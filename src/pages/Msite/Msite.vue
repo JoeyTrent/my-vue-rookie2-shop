@@ -2,12 +2,17 @@
   <section class="msite">
         <!--首页头部-->
         <HeaderTop :title="address.name">
-            <span class="header_search" slot="left">
+            <router-link to="/search" class="header_search" slot="left">
             <i class="iconfont icon-sousuo"></i>
-          </span>
-          <span class="header_login" slot="right">
-            <span class="header_login_text">登录|注册</span>
-          </span>
+            </router-link>
+          <router-link to="userInfo._id ? '/userinfo':'/login'" class="header_login" slot="right">
+            <span v-if="!userInfo._id" class="header_login_text">
+              登录|注册
+            </span>
+            <span v-else class="header_login_text">
+              <i class="iconfont icon-person"></i>
+            </span>
+          </router-link>
         </HeaderTop>
         <!--首页导航-->
         <nav class="msite_nav">
@@ -55,7 +60,7 @@ import ShopList from '../../components/ShopList/ShopList.vue'
       this.$store.dispatch('getShops')
     },
     computed: {
-      ...mapState(['address', 'category']),
+      ...mapState(['address', 'category', 'userInfo']),
       categoryArr ({size = 8}) {
         const {category} = this
         const arr = []
