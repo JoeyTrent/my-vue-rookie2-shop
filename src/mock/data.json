@@ -2,7 +2,7 @@
   "info": {
     "name": "嘉禾一品（温都水城）",
     "description": "专送",
-    "deliveryTime": 28,
+    "deliveryTime|20-40": 28,
     "score": 4.2,
     "serviceScore": 4.1,
     "foodScore": 4.3,
@@ -77,10 +77,10 @@
         {
           "name": "南瓜粥",
           "price": 9,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "甜粥",
           "sellCount": 91,
-          "rating": 100,
+          "rating|79-100": 80,
           "info": "主、辅料:水、大米、南瓜、冰糖等",
           "ratings": [
             {
@@ -116,10 +116,10 @@
         {
           "name": "红豆薏米美肤粥",
           "price": 12,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "甜粥",
           "sellCount": 86,
-          "rating": 100,
+          "rating|79-100": 80,
           "info": "美肤粥对皮肤有很好的保养作用",
           "ratings": [
             {
@@ -155,10 +155,10 @@
         {
           "name": "八宝酱菜",
           "price": 4,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "",
           "sellCount": 84,
-          "rating": 100,
+          "rating|79-100": 80,
           "info": "八宝酱菜八宝酱菜八宝酱菜八宝酱菜八宝酱菜",
           "ratings": [
             {
@@ -189,10 +189,10 @@
         {
           "name": "扁豆焖面",
           "price": 14,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "",
           "sellCount": 188,
-          "rating": 96,
+          "rating|79-100": 8,
           "ratings": [
             {
               "username": "3******c",
@@ -223,10 +223,10 @@
         {
           "name": "葱花饼",
           "price": 10,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "葱花饼葱花饼葱花饼葱花饼",
           "sellCount": 124,
-          "rating": 85,
+          "rating|79-100": 8,
           "info": "",
           "ratings": [
             {
@@ -257,10 +257,10 @@
         {
           "name": "牛肉馅饼",
           "price": 14,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "",
           "sellCount": 114,
-          "rating": 91,
+          "rating|79-100": 8,
           "info": "",
           "ratings": [
             {
@@ -291,10 +291,10 @@
         {
           "name": "招牌猪肉白菜锅贴/10个",
           "price": 17,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "",
           "sellCount": 101,
-          "rating": 78,
+          "rating|79-100": 8,
           "info": "招牌猪肉白菜锅贴招牌猪肉白菜锅贴招牌猪肉白菜锅贴",
           "ratings": [
             {
@@ -331,10 +331,10 @@
         {
           "name": "娃娃菜炖豆腐",
           "price|10-20": 20,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "",
           "sellCount": 43,
-          "rating": 92,
+          "rating|79-100": 8,
           "info": "",
           "ratings": [
             {
@@ -358,10 +358,10 @@
         {
           "name": "手撕包菜",
           "price": 16,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "",
           "sellCount": 29,
-          "rating": 100,
+          "rating|79-100": 80,
           "info": "",
           "ratings": [
             {
@@ -385,10 +385,10 @@
         {
           "name": "香酥黄金鱼/3条",
           "price": 11,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "",
           "sellCount": 15,
-          "rating": 100,
+          "rating|79-100": 80,
           "info": "",
           "ratings": [
             {
@@ -417,10 +417,10 @@
         {
           "name": "红枣山药粥",
           "price": 29,
-          "oldPrice": 36,
+          "oldPrice|8-14": 9,
           "description": "红枣山药糙米粥,素材包,爽口莴笋丝,四川泡菜或八宝酱菜,配菜可备注",
           "sellCount": 17,
-          "rating": 100,
+          "rating|79-100": 80,
           "info": "红枣山药糙米粥,素材包,爽口莴笋丝,四川泡菜或八宝酱菜,配菜可备注",
           "ratings": [
             {
@@ -437,10 +437,10 @@
         {
           "name": "红豆粥",
           "price": 14,
-          "oldPrice": 36,
+          "oldPrice|8-14": 9,
           "description": "红豆粥米粥,素材包,爽口莴笋丝,四川泡菜或八宝酱菜,配菜可备注",
           "sellCount": 17,
-          "rating": 100,
+          "rating|79-100": 80,
           "info": "",
           "ratings": [
             {
@@ -457,10 +457,10 @@
         {
           "name": "红枣山药糙米粥",
           "price": 10,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "",
           "sellCount": 81,
-          "rating": 91,
+          "rating|79-100": 8,
           "info": "红枣山药糙米粥红枣山药糙米粥红枣山药糙米粥",
           "ratings": [
             {
@@ -491,10 +491,10 @@
         {
           "name": "糊塌子",
           "price": 10,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "",
           "sellCount": 80,
-          "rating": 93,
+          "rating|79-100": 8,
           "info": "糊塌子糊塌子糊塌子糊塌子糊塌子糊塌子",
           "ratings": [
             {
@@ -530,10 +530,10 @@
         {
           "name": "田园蔬菜粥",
           "price": 8,
-          "oldPrice": 10,
+          "oldPrice|8-14": 9,
           "description": "",
           "sellCount": 15,
-          "rating": 100,
+          "rating|79-100": 80,
           "info": "",
           "ratings": [
             {
@@ -562,10 +562,10 @@
         {
           "name": "八宝酱菜",
           "price": 4,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "",
           "sellCount": 84,
-          "rating": 100,
+          "rating|79-100": 80,
           "info": "",
           "ratings": [
             {
@@ -596,10 +596,10 @@
         {
           "name": "拍黄瓜",
           "price": 9,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "",
           "sellCount": 28,
-          "rating": 100,
+          "rating|79-100": 80,
           "info": "",
           "ratings": [
             {
@@ -635,10 +635,10 @@
         {
           "name": "红豆薏米粥套餐",
           "price": 37,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "红豆薏米粥,三鲜干蒸烧卖,拍黄瓜",
           "sellCount": 3,
-          "rating": 100,
+          "rating|79-100": 80,
           "info": "",
           "ratings": [
             {
@@ -655,10 +655,10 @@
         {
           "name": "皮蛋瘦肉粥套餐",
           "price": 31,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "",
           "sellCount": 12,
-          "rating": 100,
+          "rating|79-100": 80,
           "info": "",
           "ratings": [
             {
@@ -680,10 +680,10 @@
         {
           "name": "蜜瓜圣女萝莉杯",
           "price": 6,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "",
           "sellCount": 1,
-          "rating": "",
+          "rating|79-100": 8,
           "info": "",
           "ratings": [],
           "icon": "http://fuss10.elemecdn.com/b/5f/b3b04c259d5ec9fa52e1856ee50dajpeg.jpeg?imageView2/1/w/114/h/114",
@@ -692,10 +692,10 @@
         {
           "name": "加多宝",
           "price": 6,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "",
           "sellCount": 7,
-          "rating": 100,
+          "rating|79-100": 80,
           "info": "",
           "ratings": [
             {
@@ -726,10 +726,10 @@
         {
           "name": "VC无限橙果汁",
           "price": 8,
-          "oldPrice": 10,
+          "oldPrice|8-14": 9,
           "description": "",
           "sellCount": 15,
-          "rating": 100,
+          "rating|79-100": 80,
           "info": "",
           "ratings": [
             {
@@ -758,10 +758,10 @@
         {
           "name": "扁豆焖面",
           "price": 14,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "",
           "sellCount": 188,
-          "rating": 96,
+          "rating|79-100": 8,
           "info": "",
           "ratings": [
             {
@@ -792,10 +792,10 @@
         {
           "name": "葱花饼",
           "price": 10,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "",
           "sellCount": 124,
-          "rating": 85,
+          "rating|79-100": 8,
           "info": "",
           "ratings": [
             {
@@ -826,10 +826,10 @@
         {
           "name": "牛肉馅饼",
           "price": 14,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "",
           "sellCount": 114,
-          "rating": 91,
+          "rating|79-100": 8,
           "info": "",
           "ratings": [
             {
@@ -860,10 +860,10 @@
         {
           "name": "招牌猪肉白菜锅贴/10个",
           "price": 17,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "",
           "sellCount": 101,
-          "rating": 78,
+          "rating|79-100": 8,
           "info": "",
           "ratings": [
             {
@@ -894,10 +894,10 @@
         {
           "name": "糊塌子",
           "price": 10,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "",
           "sellCount": 80,
-          "rating": 93,
+          "rating|79-100": 8,
           "info": "",
           "ratings": [
             {
@@ -933,10 +933,10 @@
         {
           "name": "皮蛋瘦肉粥",
           "price": 10,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "咸粥",
           "sellCount": 229,
-          "rating": 100,
+          "rating|79-100": 80,
           "ratings": [
             {
               "username": "3******c",
@@ -966,10 +966,10 @@
         {
           "name": "南瓜粥",
           "price": 9,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "甜粥",
           "sellCount": 91,
-          "rating": 100,
+          "rating|79-100": 80,
           "info": "",
           "ratings": [
             {
@@ -1000,10 +1000,10 @@
         {
           "name": "红豆薏米美肤粥",
           "price": 12,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "甜粥",
           "sellCount": 86,
-          "rating": 100,
+          "rating|79-100": 80,
           "info": "",
           "ratings": [
             {
@@ -1034,10 +1034,10 @@
         {
           "name": "红枣山药糙米粥",
           "price": 10,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "",
           "sellCount": 81,
-          "rating": 91,
+          "rating|79-100": 8,
           "info": "",
           "ratings": [
             {
@@ -1068,10 +1068,10 @@
         {
           "name": "鲜蔬菌菇粥",
           "price": 11,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "咸粥",
           "sellCount": 56,
-          "rating": 100,
+          "rating|79-100": 80,
           "info": "",
           "ratings": [
             {
@@ -1101,10 +1101,10 @@
         {
           "name": "田园蔬菜粥",
           "price": 10,
-          "oldPrice": "",
+          "oldPrice|8-14": 9,
           "description": "咸粥",
           "sellCount": 33,
-          "rating": 100,
+          "rating|79-100": 80,
           "info": "",
           "ratings": [
             {
@@ -1139,10 +1139,10 @@
     {
       "username": "3******c",
       "rateTime": 1469281964000,
-      "deliveryTime": 30,
+      "deliveryTime|20-40": 30,
       "score": 5,
       "rateType": 0,
-      "text": "不错,粥很好喝,我经常吃这一家,非常赞,以后也会常来吃,强烈推荐.",
+      "text": "不错,粥很好喝,我经常吃这一家,非常赞,以后也会常来吃,推荐.",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": [
         "南瓜粥",
@@ -1155,7 +1155,7 @@
     {
       "username": "2******3",
       "rateTime": 1469271264000,
-      "deliveryTime": "20",
+      "deliveryTime|20-40": 20,
       "score": 4,
       "rateType": 0,
       "text": "服务态度不错",
@@ -1176,7 +1176,7 @@
     {
       "username": "1******c",
       "rateTime": 1469261864000,
-      "deliveryTime": 20,
+      "deliveryTime|20-40": 20,
       "score": 5,
       "rateType": 0,
       "text": "良心店铺",
@@ -1186,7 +1186,7 @@
     {
       "username": "2******d",
       "rateTime": 1469251264000,
-      "deliveryTime": 10,
+      "deliveryTime|20-40": 10,
       "score": 4,
       "rateType": 0,
       "text": "",
@@ -1196,7 +1196,7 @@
     {
       "username": "9******0",
       "rateTime": 1469241964000,
-      "deliveryTime": 70,
+      "deliveryTime|20-40": 70,
       "score": 1,
       "rateType": 1,
       "text": "送货速度蜗牛一样",
@@ -1206,7 +1206,7 @@
     {
       "username": "d******c",
       "rateTime": 1469231964000,
-      "deliveryTime": 30,
+      "deliveryTime|20-40": 30,
       "score": 5,
       "rateType": 0,
       "text": "很喜欢的粥店",
@@ -1216,7 +1216,7 @@
     {
       "username": "2******3",
       "rateTime": 1469221264000,
-      "deliveryTime": "",
+      "deliveryTime|20-40": 30,
       "score": 4,
       "rateType": 0,
       "text": "量给的还可以",
@@ -1226,7 +1226,7 @@
     {
       "username": "3******8",
       "rateTime": 1469211964000,
-      "deliveryTime": "",
+      "deliveryTime|20-40": 30,
       "score": 3,
       "rateType": 1,
       "text": "",
@@ -1236,7 +1236,7 @@
     {
       "username": "a******a",
       "rateTime": 1469201964000,
-      "deliveryTime": "",
+      "deliveryTime|20-40": 30,
       "score": 4,
       "rateType": 0,
       "text": "孩子喜欢吃这家",
@@ -1248,7 +1248,7 @@
     {
       "username": "3******3",
       "rateTime": 1469191264000,
-      "deliveryTime": "",
+      "deliveryTime|20-40": 27,
       "score": 4,
       "rateType": 0,
       "text": "粥挺好吃的",
@@ -1258,7 +1258,7 @@
     {
       "username": "t******b",
       "rateTime": 1469181964000,
-      "deliveryTime": "",
+      "deliveryTime|20-40": 27,
       "score": 3,
       "rateType": 1,
       "text": "",
@@ -1268,7 +1268,7 @@
     {
       "username": "f******c",
       "rateTime": 1469171964000,
-      "deliveryTime": 15,
+      "deliveryTime|20-40": 15,
       "score": 5,
       "rateType": 0,
       "text": "送货速度很快",
@@ -1278,7 +1278,7 @@
     {
       "username": "k******3",
       "rateTime": 1469161264000,
-      "deliveryTime": "",
+      "deliveryTime|20-40": 27,
       "score": 4,
       "rateType": 0,
       "text": "",
@@ -1288,7 +1288,7 @@
     {
       "username": "u******b",
       "rateTime": 1469151964000,
-      "deliveryTime": "",
+      "deliveryTime|20-40": 27,
       "score": 4,
       "rateType": 0,
       "text": "下雨天给快递小哥点个赞",
@@ -1298,7 +1298,7 @@
     {
       "username": "s******c",
       "rateTime": 1469141964000,
-      "deliveryTime": "",
+      "deliveryTime|20-40": 27,
       "score": 4,
       "rateType": 0,
       "text": "好",
@@ -1308,7 +1308,7 @@
     {
       "username": "z******3",
       "rateTime": 1469131264000,
-      "deliveryTime": "",
+      "deliveryTime|20-40": 27,
       "score": 5,
       "rateType": 0,
       "text": "吃了还想再吃",
@@ -1318,7 +1318,7 @@
     {
       "username": "n******b",
       "rateTime": 1469121964000,
-      "deliveryTime": "",
+      "deliveryTime|20-40": 27,
       "score": 3,
       "rateType": 1,
       "text": "发票开的不对",
@@ -1328,7 +1328,7 @@
     {
       "username": "m******c",
       "rateTime": 1469111964000,
-      "deliveryTime": 30,
+      "deliveryTime|20-40": 30,
       "score": 5,
       "rateType": 0,
       "text": "好吃",
@@ -1338,7 +1338,7 @@
     {
       "username": "l******3",
       "rateTime": 1469101264000,
-      "deliveryTime": 40,
+      "deliveryTime|20-40": 40,
       "score": 5,
       "rateType": 0,
       "text": "还不错吧",
@@ -1348,7 +1348,7 @@
     {
       "username": "3******o",
       "rateTime": 1469091964000,
-      "deliveryTime": "",
+      "deliveryTime|20-40": 27,
       "score": 2,
       "rateType": 1,
       "text": "",
@@ -1358,7 +1358,7 @@
     {
       "username": "3******p",
       "rateTime": 1469081964000,
-      "deliveryTime": "",
+      "deliveryTime|20-40": 27,
       "score": 4,
       "rateType": 0,
       "text": "很喜欢的粥",
@@ -1368,7 +1368,7 @@
     {
       "username": "o******k",
       "rateTime": 1469071264000,
-      "deliveryTime": "",
+      "deliveryTime|20-40": 27,
       "score": 5,
       "rateType": 0,
       "text": "",
@@ -1378,7 +1378,7 @@
     {
       "username": "k******b",
       "rateTime": 1469061964000,
-      "deliveryTime": "",
+      "deliveryTime|20-40": 27,
       "score": 4,
       "rateType": 0,
       "text": "",

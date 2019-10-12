@@ -4,15 +4,24 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 //组件
-import Msite from '../pages/Msite/Msite'
-import Search from '../pages/Search/Search'
-import Order from '../pages/Order/Order'
-import Profile from '../pages/Profile/Profile'
-import Login from '../pages/Login/Login'
-import Shop from '../pages/Shop/Shop.vue'
-import ShopGoods from '../pages/Shop/ShopGoods/ShopGoods.vue'
-import ShopRatings from '../pages/Shop/ShopRatings/ShopRatings.vue'
-import ShopInfo from '../pages/Shop/ShopInfo/ShopInfo.vue'
+// import Msite from '../pages/Msite/Msite'
+// import Search from '../pages/Search/Search'
+// import Order from '../pages/Order/Order'
+// import Profile from '../pages/Profile/Profile'
+// import Login from '../pages/Login/Login'
+// import Shop from '../pages/Shop/Shop.vue'
+// import ShopGoods from '../pages/Shop/ShopGoods/ShopGoods.vue'
+// import ShopRatings from '../pages/Shop/ShopRatings/ShopRatings.vue'
+// import ShopInfo from '../pages/Shop/ShopInfo/ShopInfo.vue'
+const Msite = () =>  import('../pages/Msite/Msite.vue')
+const Search = () =>  import('../pages/Search/Search.vue')
+const Order = () =>  import('../pages/Order/Order.vue')
+const Profile = () =>  import('../pages/Profile/Profile.vue')
+const Login = () =>  import('../pages/Login/Login.vue')
+const Shop = () =>  import('../pages/Shop/Shop.vue')
+const ShopGoods = () =>  import('../pages/Shop/ShopGoods/ShopGoods.vue')
+const ShopRatings = () =>  import('../pages/Shop/ShopRatings/ShopRatings.vue')
+const ShopInfo = () =>  import('../pages/Shop/ShopInfo/ShopInfo.vue')
 Vue.use(VueRouter)
 
 const originalPush = VueRouter.prototype.push

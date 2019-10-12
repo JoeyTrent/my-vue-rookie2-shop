@@ -16,6 +16,7 @@
       },
       methods: {
         ...mapActions(['getAddress', 'getUserInfo'])
+          
       },
       components: {
           FooterGuide

@@ -8,5 +8,7 @@ export default {
   userInfo: {}, // 用户信息
   goods: [], // 商品列表
   ratings: [], // 评价列表
-  info: {} // 商家信息
+  info: {},// 商家信息
+  cartFoods: [],// 购物车的食物
+  searchShops: [],// 搜索结果
 }
