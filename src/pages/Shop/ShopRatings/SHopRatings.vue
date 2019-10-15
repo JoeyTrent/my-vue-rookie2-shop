@@ -217,7 +217,7 @@
       .rating-type
         padding: 18px 0
         margin: 0 18px
-        border-1px(rgba(7, 17, 27, 0.1))
+        // border-1px(rgba(7, 17, 27, 0.1))
         font-size: 0
         .block
           display: inline-block

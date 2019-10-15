@@ -1,6 +1,8 @@
 //包含 接口请求函数模块
 import ajax from './ajax'
-const BASE_URL = '/api'
+//const BASE_URL = '/api'
+// const BASE_URL = 'http://localhost:4000'
+const BASE_URL = 'http://localhost:4000'
 //1.由经纬度获取位置
 export const reqAddress = (geohash) => ajax(`${BASE_URL}/position/${geohash}`)
 //2.食物列表
